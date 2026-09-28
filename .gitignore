@@ -1,13 +1,19 @@
 # Sanal ortam
 venv/
-env/
 
 # Python
 __pycache__/
 *.pyc
 
-# Eğitim çıktıları (ağır dosyalar)
-runs/
+# Eğitim çıktıları (gerekli olan asıl model dosyası hariç)
+runs/*
+!runs/detect
+runs/detect/*
+!runs/detect/train-8
+runs/detect/train-8/*
+!runs/detect/train-8/weights
+runs/detect/train-8/weights/*
+!runs/detect/train-8/weights/best.pt
 
 # Kişisel / proje dışı dosyalar
 Claude outputs/
