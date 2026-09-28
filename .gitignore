@@ -22,5 +22,8 @@ Claude outputs/
 deneme_video.mp4
 deneme_video1.mp4
 
+# İnternetten indirilen test görseli (kodun çalışması için gerekli değil)
+The_million_march_man.jpg
+
 # Editör ayarları
 .vscode/
